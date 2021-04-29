@@ -2,7 +2,6 @@
 $x = $_POST['angka'];
 $y = $_COOKIE['angkaRandom'];
 
-
 if ($x < $y){
     echo "<h2>Waaah… masih salah ya, bilangan tebakan Anda terlalu rendah.</h2>";
     echo "<br>";
